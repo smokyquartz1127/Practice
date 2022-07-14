@@ -1,0 +1,22 @@
+html {
+    background-color: #2f4f4f;
+}
+#modal {
+    display: none;
+}
+
+.choice_modal{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('images/cog-3x.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+
+.chart-container {
+    width: 50%;
+}

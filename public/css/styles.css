@@ -1,0 +1,89 @@
+/*フォント*/
+body {
+    font-family: “游ゴシック“, YuGothic, “ヒラギノ角ゴ Pro W3”, “Hiragino Kaku Gothic Pro”, “メイリオ“, Meiryo, “ＭＳ Ｐゴシック“, “MS PGothic”, sans-serif;
+}
+
+/*エラーメッセージ*/
+.errors {
+    color: green;
+}
+
+/*ヘッダー*/
+.link_nav{
+    display: flex;
+    list-style: none;
+}
+.link_nav li{
+    margin-right: 20px;
+}
+
+/*メイン*/
+.main_section {
+    margin-left: 300px;
+}
+
+/*トップページ*/
+.chatchphrase {
+    font-family: "游ゴシック";
+    font-style: oblique;
+}
+.product_container {
+    width: 600px;
+    border-top: solid 1px black;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.product_container:last-child {
+    padding-bottom: 10px;
+    border-bottom: solid 1px black; 
+}
+.product_detail {
+    display: flex;
+}
+.item_name_like {
+    display: flex;
+}
+.category {
+    font-size: 12px;
+}
+
+/*画像・売り切れ共通*/
+.product_detail img {
+    width: 300px;
+}
+.soldout p{
+    color: red;
+    font-weight: bold;
+}
+
+/*フォーム共通*/
+.edit_item label,
+.edit_item input,
+.edit_item textarea,
+.edit_item select{
+    display: block;
+    margin-bottom: 30px;
+}
+.form_style {
+    margin-bottom: 50px;
+}
+
+/*プロフィールページ*/
+.header_container {
+    display: flex;
+    vertical-align: central;
+}
+.header_image img{
+    width: 300px;
+}
+.self_introduce {
+    display: flex;
+}
+.buy_list {
+    list-style: none;
+}
+
+/*いいねボタン*/
+.like_button {
+    cursor: pointer;
+}
